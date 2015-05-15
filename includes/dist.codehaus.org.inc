@@ -3,7 +3,7 @@
 ##################################
 
 # Customer rules here
-
+RewriteRule "^/sonar/(.*)$" "http://downloads.sonarsource.com/sonarqube/$1" [L]
 
 
 
