@@ -5,11 +5,11 @@ Codehaus hosted URLs.
 
 # Infrastructure
 
-We will progressively migrate hostnames from Contegix hosted infrastructure to an Amazon EC2 powered
-redirection service. Once the hostnames are migrated, they will come under the power of this redirection
-service and all traffic will be redirected using.
+We will progressively migrate hostnames from Contegix hosted infrastructure to 
+an Amazon EC2 powered redirection service. Once the hostnames are migrated, they will come under the power of this redirection service and all traffic will be redirected using.
 
-Most likely this will be a `t1.micro` or similar that issues 301/302 redirects as per the configuration.
+Most likely this will be a `t1.micro` or similar that issues 301/302 redirects
+as per the configuration.
 
 # SSL
 
