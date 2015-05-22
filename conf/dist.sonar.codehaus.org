@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+  ServerName dist.sonar.codehaus.org
+  ServerAdmin support@codehaus.org
+  RewriteEngine on
+
+  Include redirector/includes/abuse.inc
+  
+  RewriteRule "^/(.*)$" "http://downloads.sonarsource.com/sonarqube/$1" [L]
+
+</VirtualHost>
