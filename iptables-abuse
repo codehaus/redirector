@@ -1,0 +1,6 @@
+iptables -F
+
+# Repository abusers
+iptables -I INPUT -s 54.173.172.208 -j DROP
+
+
