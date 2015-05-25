@@ -17,5 +17,5 @@ RewriteRule "/sonar.*/" "https://www.sonarqube.org"
 ##################################
 # FALLBACK                       #
 ##################################
-RewriteRule ^.*$ / [R=410]
-ErrorDocument 410 "Codehaus has shutdown - http://www.codehaus.org/"
+RewriteRule ^.*$ / [R=404]
+ErrorDocument 404 "Codehaus has shutdown - http://www.codehaus.org/"
