@@ -1,0 +1,11 @@
+iptables -F
+
+# Repository abusers
+
+# Repeated downloads of twitter
+iptables -I INPUT -s 54.173.172.208 -j DROP
+
+# Aether - downloading same thing over and over
+iptables -I INPUT -s 107.161.9.18   -j DROP
+
+
