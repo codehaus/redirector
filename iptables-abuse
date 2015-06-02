@@ -8,4 +8,10 @@ iptables -I INPUT -s 54.173.172.208 -j DROP
 # Aether - downloading same thing over and over
 iptables -I INPUT -s 107.161.9.18   -j DROP
 
+# Just too much traffic
+iptables -I INPUT -s 204.152.239.219   -j DROP
+iptables -I INPUT -s 159.140.254.10    -j DROP
+iptables -I INPUT -s 62.189.56.2       -j DROP
+iptables -I INPUT -s 79.17.114.237       -j DROP
+
 
