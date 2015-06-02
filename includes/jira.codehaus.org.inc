@@ -25,4 +25,4 @@ RewriteRule "/browse/MAVENPROXY" "https://www.codehaus.org/termination.html"
 ##################################
 # FALLBACK                       #
 ##################################
-RewriteRule    "^.*"  "https://www.codehaus.org/termination.html"
+RewriteRule    "^.*"  "https://www.codehaus.org/termination/"

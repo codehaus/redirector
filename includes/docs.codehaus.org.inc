@@ -37,5 +37,5 @@ RewriteRule "^/display/SONAR/(.*)$"                          "http://docs.sonarq
 ##################################
 # FALLBACK                       #
 ##################################
-#RewriteRule    "^.*"  "https://www.codehaus.org/termination.html"
+RewriteRule    "^.*"  "https://www.codehaus.org/termination/"
 
