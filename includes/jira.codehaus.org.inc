@@ -15,7 +15,12 @@ RewriteRule "^/browse/MSONAR(.*)$" "http://jira.sonarsource.com/browse/MSONAR$1"
 ##################################
 RewriteRule "^/browse/MRM(.*)$" "https://issues.apache.org/jira/browse/MRM$1" [L]
 RewriteRule "^/browse/MNG(.*)$" "https://issues.apache.org/jira/browse/MNG$1" [L]
- 
+
+##################################
+# Owned by: Henri Tremblay       #
+##################################
+RewriteRule "^/browse/EASYMOCK.*$" "https://github.com/easymock/easymock/issues" [L]
+
 ##################################
 # Owned by: support@codehaus.org #
 ##################################
