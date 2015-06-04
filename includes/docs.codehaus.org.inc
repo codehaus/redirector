@@ -90,6 +90,11 @@ RewriteRule ^/display/GROOVY/Writing.Domain.Specific.Languages(.*)              
 RewriteRule ^/display/GROOVY/Groovy.style.and.language.feature.guidelines.for.Java.developers(.*)  http://groovy-lang.org/style-guide.html [R,NE,L]
 
 ##################################
+# Binary Repository redirection  #
+##################################
+RewriteRule "^/display/MAVENUSER/Maven\+Repository\+Manager\+Feature\+Matrix$"           "http://binary-repositories-comparison.github.io" [R=301,L]
+
+##################################
 # FALLBACK                       #
 ##################################
 RewriteRule    "^.*"  "https://www.codehaus.org/termination/"
