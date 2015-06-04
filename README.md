@@ -5,15 +5,14 @@ Codehaus hosted URLs.
 
 # Infrastructure
 
-We will progressively migrate hostnames from Contegix hosted infrastructure to 
-an Amazon EC2 powered redirection service. Once the hostnames are migrated, they will come under the power of this redirection service and all traffic will be redirected using.
+The wildcard `*.codehaus.org` DNS entry points at this redirector.
 
-Most likely this will be a `t1.micro` or similar that issues 301/302 redirects
+This service is hosted by a `t2.micro` that issues 301/302 redirects
 as per the configuration.
 
 # SSL
 
-We will have our *.codehaus.org wildcard located on this machine.
+We have our *.codehaus.org wildcard located on this machine - however it is out of date and really needs to be reissued.
 
 # Changes
 
