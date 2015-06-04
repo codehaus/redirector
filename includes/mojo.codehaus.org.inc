@@ -10,4 +10,4 @@ RewriteRule "^/buildnumber-maven-plugin/(.*)$" "https://github.com/astubbs/build
 ##################################
 # FALLBACK                       #
 ##################################
-RewriteRule    "^.*"  "https://www.codehaus.org/termination/"
+RewriteRule    "^.*"  "http://www.mojohaus.org"
