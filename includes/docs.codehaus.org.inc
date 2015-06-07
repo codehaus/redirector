@@ -5,6 +5,11 @@
 # Customer rules here
 
 ##################################
+# Owned by: Maven PMC            #
+##################################
+RewriteRule "^/display/MAVENUSER/Maven\+Repository\+Manager\+Feature\+Matrix$"           "https://maven.apache.org/repository-management.html" [R=302,L]
+
+##################################
 # Owned by: Olivier Gaudin       #
 ##################################
 RewriteRule "^/display/SONAR/$"                                "http://docs.sonarqube.org/display/SONAR/Documentation" [R=301,L]
