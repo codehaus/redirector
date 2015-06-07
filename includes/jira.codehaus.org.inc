@@ -138,6 +138,11 @@ RewriteRule "^/browse/MVFS(.*)$" "https://github.com/mojohaus/vfs/issues" [L]
 #RewriteRule "^/browse/MXMLBEANS(.*)$" "https://github.com/mojohaus/xmlbeans-maven-plugin/issues" [L]
 
 ##################################
+# Owned by: S. Ali Tokmen        #
+##################################
+RewriteRule "^/browse/CARGO(.*)$" "https://codehaus-cargo.atlassian.net/browse/CARGO$1" [L]
+
+##################################
 # Owned by: support@codehaus.org #
 ##################################
 RewriteRule "/browse/MAVENPROXY" "https://www.codehaus.org/termination.html"
