@@ -143,6 +143,11 @@ RewriteRule "^/browse/MVFS(.*)$" "https://github.com/mojohaus/vfs/issues" [L]
 RewriteRule "^/browse/CARGO(.*)$" "https://codehaus-cargo.atlassian.net/browse/CARGO$1" [R=301,L]
 
 ##################################
+# Owned by: Rene Krell           #
+##################################
+RewriteRule "^/browse/IZPACK(.*)$" "https://izpack.atlassian.net/browse/IZPACK$1" [L]
+
+##################################
 # Owned by: support@codehaus.org #
 ##################################
 RewriteRule "/browse/MAVENPROXY" "https://www.codehaus.org/termination.html"
