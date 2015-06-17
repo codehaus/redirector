@@ -9,5 +9,5 @@
 ##################################
 # FALLBACK                       #
 ##################################
-RewriteRule ^.*$ / [R=404]
-ErrorDocument 404 "Codehaus has shutdown - http://www.codehaus.org/"
+RewriteRule ^.*$ / [R=410]
+ErrorDocument 410 "Codehaus has shutdown - https://www.codehaus.org/"
