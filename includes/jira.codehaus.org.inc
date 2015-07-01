@@ -148,6 +148,11 @@ RewriteRule "^/browse/CARGO(.*)$" "https://codehaus-cargo.atlassian.net/browse/C
 RewriteRule "^/browse/IZPACK(.*)$" "https://izpack.atlassian.net/browse/IZPACK$1" [L]
 
 ##################################
+# Owned by: JBehave              #
+##################################
+RewriteRule "^/browse/JBEHAVE(.*)$" "https://jbehave.atlassian.net/browse/JBEHAVE$1" [L]
+
+##################################
 # Owned by: support@codehaus.org #
 ##################################
 RewriteRule "/browse/MAVENPROXY" "https://www.codehaus.org/termination.html"
