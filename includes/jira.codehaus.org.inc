@@ -153,6 +153,11 @@ RewriteRule "^/browse/IZPACK(.*)$" "https://izpack.atlassian.net/browse/IZPACK$1
 RewriteRule "^/browse/JBEHAVE(.*)$" "https://jbehave.atlassian.net/browse/JBEHAVE$1" [L]
 
 ##################################
+# Owned by: Keegan Witt          #
+##################################
+RewriteRule "^/browse/GMAVENPLUS(.*)$" "https://github.com/groovy/GMavenPlus/tree/master/jira" [L]
+
+##################################
 # Owned by: support@codehaus.org #
 ##################################
 RewriteRule "/browse/MAVENPROXY" "https://www.codehaus.org/termination.html"
