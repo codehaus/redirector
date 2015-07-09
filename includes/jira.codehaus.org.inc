@@ -7,8 +7,12 @@
 ##################################
 # Owned by: Olivier Gaudin       #
 ##################################
-RewriteRule "^/browse/SONAR(.*)$" "http://jira.sonarsource.com/browse/SONAR$1" [L]
-RewriteRule "^/browse/MSONAR(.*)$" "http://jira.sonarsource.com/browse/MSONAR$1" [L]
+RewriteRule "^/browse/SONARSCTFS-1(.*)$" "http://jira.sonarsource.com/browse/SONARTFVC-12$1" [R=301,L]
+RewriteRule "^/browse/SONARSCTFS-2(.*)$" "http://jira.sonarsource.com/browse/SONARTFVC-14$1" [R=301,L]
+RewriteRule "^/browse/SONARSCTFS-3(.*)$" "http://jira.sonarsource.com/browse/SONARTFVC-13$1" [R=301,L]
+RewriteRule "^/browse/SONARSCTFS-4(.*)$" "http://jira.sonarsource.com/browse/SONARTFVC-11$1" [R=301,L]
+RewriteRule "^/browse/SONAR(.*)$" "http://jira.sonarsource.com/browse/SONAR$1" [R=301,L]
+RewriteRule "^/browse/MSONAR(.*)$" "http://jira.sonarsource.com/browse/MSONAR$1" [R=301,L]
 
 ##################################
 # Owned by: Apache               #
