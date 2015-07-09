@@ -40,6 +40,11 @@ RewriteRule "^/display/SONAR/Plugins\+Under\+Development$"     "http://docs.sona
 RewriteRule "^/display/SONAR/(.*)$"                          "http://docs.sonarqube.org/display/SONAR/Documentation" [R=301,L]
 
 ##################################
+# Owned by: Keegan Witt          #
+##################################
+RewriteRule ^/display/GMAVENPLUS/(.*) https://github.com/groovy/GMavenPlus/wiki [L]
+
+##################################
 # Groovy redirection rules       #
 ##################################
 
