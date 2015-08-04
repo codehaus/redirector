@@ -162,6 +162,11 @@ RewriteRule "^/browse/JBEHAVE(.*)$" "https://jbehave.atlassian.net/browse/JBEHAV
 RewriteRule "^/browse/GMAVENPLUS(.*)$" "https://github.com/groovy/GMavenPlus/tree/master/jira" [L]
 
 ##################################
+# Owned by: Jikes RVM            #
+##################################
+RewriteRule "^/browse/RVM(.*)$" "https://xtenlang.atlassian.net/browse/RVM$1" [R=301,L]
+
+##################################
 # Owned by: support@codehaus.org #
 ##################################
 RewriteRule "/browse/MAVENPROXY" "https://www.codehaus.org/termination.html"
