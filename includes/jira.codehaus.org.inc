@@ -84,7 +84,7 @@ RewriteRule "^/browse/MWAR(.*)$"           "https://issues.apache.org/jira/brows
 ##################################
 # Owned by: Henri Tremblay       #
 ##################################
-RewriteRule "^/browse/EASYMOCK.*$" "https://github.com/easymock/easymock/issues" [L]
+RewriteRule "^/browse/EASYMOCK.*$" "https://github.com/easymock/easymock/issues" [R=301,L]
 
 ##################################
 # Owned by: Mojohaus             #
