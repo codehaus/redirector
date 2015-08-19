@@ -15,3 +15,11 @@ iptables -I INPUT -s 62.189.56.2       -j DROP
 iptables -I INPUT -s 79.17.114.237       -j DROP
 
 
+
+iptables -I INPUT -s 54.236.124.56       -j DROP
+iptables -I INPUT -s 212.179.50.200       -j DROP
+iptables -I INPUT -s 160.17.22.52       -j DROP
+
+
+
+
