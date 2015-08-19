@@ -159,5 +159,5 @@ RewriteRule "^/display/RVM/(.*)$"                              "http://www.jikes
 ##################################
 # FALLBACK                       #
 ##################################
-RewriteRule    "^.*"  "https://www.codehaus.org/termination/"
+RewriteRule    "^.*"  "https://www.codehaus.org/termination/" [R=301,L]
 

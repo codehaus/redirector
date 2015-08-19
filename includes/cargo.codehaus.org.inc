@@ -12,4 +12,4 @@ RewriteRule "^/(.+)$" "https://codehaus-cargo.github.io/cargo/$1.html" [R=301,L]
 ##################################
 # FALLBACK                       #
 ##################################
-RewriteRule    "^.*"  "https://codehaus-cargo.github.io/"
+RewriteRule    "^.*"  "https://codehaus-cargo.github.io/"  [R=301,L]
