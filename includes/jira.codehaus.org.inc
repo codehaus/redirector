@@ -171,6 +171,13 @@ RewriteRule "^/browse/RVM(.*)$" "https://xtenlang.atlassian.net/browse/RVM$1" [R
 ##################################
 RewriteRule "/browse/MAVENPROXY" "https://www.codehaus.org/termination.html"
 
+##################################
+# Owned by: Codehaus Plexus      #
+##################################
+RewriteRule "/browse/MODELLO(.*)" "https://github.com/codehaus-plexus/modello/issues" [R=301,L]
+RewriteRule "/browse/PLXUTILS(.*)" "https://github.com/codehaus-plexus/plexus-utils/issues" [R=301,L]
+RewriteRule "/browse/PLXCOMP(.*)" "https://github.com/codehaus-plexus/plexus-components/issues" [R=301,L]
+RewriteRule "/browse/PLX(.*)" "https://github.com/codehaus-plexus/plexus-containers/issues" [R=301,L]
 
 ##################################
 # FALLBACK                       #
