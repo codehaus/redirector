@@ -119,7 +119,7 @@ RewriteRule "^/display/RVM/How\+to\+help$"                     "http://www.jikes
 RewriteRule "^/display/RVM/Ideas\+for\+code\+contributions$"   "http://www.jikesrvm.org/IdeasForCodeContributions/" [R=301,L]
 RewriteRule "^/display/RVM/Issue\+Tracker$"                    "http://www.jikesrvm.org/IssueTracker/" [R=301,L]
 RewriteRule "^/display/RVM/Mailing\+Lists$"                    "http://www.jikesrvm.org/MailingLists/" [R=301,L]
-RewriteRule "^/display/RVM/Merge\+Status\Of\+MRP\+Changesets$" "http://www.jikesrvm.org/MergeStatusOfMRPChangesets/" [R=301,L]
+RewriteRule "^/display/RVM/Merge\+Status\+Of\+MRP\+Changesets$" "http://www.jikesrvm.org/MergeStatusOfMRPChangesets/" [R=301,L]
 RewriteRule "^/display/RVM/Project\+Status$"                   "http://www.jikesrvm.org/ProjectStatus/" [R=301,L]
 RewriteRule "^/display/RVM/Project\+Organization$"             "http://www.jikesrvm.org/ProjectOrganization/" [R=301,L]
 RewriteRule "^/display/RVM/Recommended\+Reading$"              "http://www.jikesrvm.org/RecommendedReading/" [R=301,L]
