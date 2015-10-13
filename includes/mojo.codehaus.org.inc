@@ -4,7 +4,7 @@
 
 # Customer rules here
 
-RewriteRule "^/buildnumber-maven-plugin/(.*)$" "https://github.com/astubbs/buildnumber-maven-plugin"
+RewriteRule "^/buildnumber-maven-plugin/(.*)$" "https://github.com/astubbs/buildnumber-maven-plugin"  [R=301,L]
 
 
 ##################################
